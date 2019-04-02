@@ -23,10 +23,10 @@ $(".board").on("click", function(){
 
 $(".board").on("click", function(){
 	if (checkForWinner() === true && currentMarker === "O"){
-	$("h2").html(`Player One You Win`);
+	$("h2").html(`Player One You Win!`);
 	$(".board").off("click");
 }	else if (checkForWinner() === true && currentMarker === "X"){
-	$("h2").html(`Player Two You Win`);
+	$("h2").html(`Player Two You Win!`);
 	$(".board").off("click");
 }
 });
