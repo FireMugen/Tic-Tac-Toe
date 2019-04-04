@@ -7,4 +7,17 @@
 3. It also stores the win count in a variable which is incremented when the win condition is met.
 4. Dom manipulation is done with jQuery!
 
+**Live Site**
+https://firemugen.github.io/project0/
+
+**Screenshot**
+![Game Screenshot](images/ScreenShot.png)
+
+**Languages**
+1. JavaScript
+2. HTML
+3. CSS
+
+No known bugs at this point. 
+
 ### A Game By Max Reeves
