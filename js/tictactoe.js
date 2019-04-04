@@ -2,6 +2,12 @@ var board = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 var currentMarker = "X";
 var numberOfTurns = 0;
 
+const boardClear = function () {
+		  board = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+			numberOfTurns = 0;
+			currentMarker = "X";
+};
+
 const makeMove = function (boardNumber) {
   board[boardNumber-1] = currentMarker;
 	checkForWinner();
