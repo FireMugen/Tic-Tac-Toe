@@ -5,7 +5,6 @@
   width: 150px;
   height: 150px;
   text-align: center;
-  line-height: 300px;
 	display: inline-block;
 }
 
@@ -84,4 +83,16 @@ div:hover {
 img {
 	background-image: url("images/circumference.png");
 	background-image: url("images/close.svg")
+}
+
+@media (max-width: 700px) {
+
+  .box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  	display: inline-block;
+    border-radius: 30%;
+  }
+
 }

@@ -43,8 +43,6 @@ $(document).ready(function(){
 			$("h2").html(`Player Two You Win!`);
 			$("button").show();
 			playerTwoScore += 1;
-
-
 		}
 	});
 
